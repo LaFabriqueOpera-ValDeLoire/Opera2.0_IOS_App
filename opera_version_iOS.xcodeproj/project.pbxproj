@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9619A2DF23D9F815004076EA /* lorchestreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9619A2DE23D9F815004076EA /* lorchestreViewController.swift */; };
+		963B3786240D13A700E888E3 /* BilletterieWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B3785240D13A700E888E3 /* BilletterieWebViewController.swift */; };
+		96597F6E23D8949A007162A4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96597F6D23D8949A007162A4 /* WebKit.framework */; };
+		9682DDE223E0427900B8C031 /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9682DDE123E0427900B8C031 /* WelcomePageViewController.swift */; };
+		96A20E1123EC539C00E09EF9 /* Questions.xml in Resources */ = {isa = PBXBuildFile; fileRef = 96A20E1023EC539C00E09EF9 /* Questions.xml */; };
+		96AB244E23FD9AE8001A6857 /* claviersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AB244D23FD9AE8001A6857 /* claviersViewController.swift */; };
+		96AB245023FD9B10001A6857 /* cordesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AB244F23FD9B10001A6857 /* cordesViewController.swift */; };
+		96AB245223FD9B29001A6857 /* ventcuivresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AB245123FD9B29001A6857 /* ventcuivresViewController.swift */; };
+		96AB245423FD9B52001A6857 /* percuissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AB245323FD9B52001A6857 /* percuissionsViewController.swift */; };
+		96AB2460240016F2001A6857 /* harpe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB2455240016F0001A6857 /* harpe.mp3 */; };
+		96AB2461240016F2001A6857 /* cors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB2456240016F1001A6857 /* cors.mp3 */; };
+		96AB2462240016F2001A6857 /* celesta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB2457240016F1001A6857 /* celesta.mp3 */; };
+		96AB2463240016F2001A6857 /* contrebasse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB2458240016F1001A6857 /* contrebasse.mp3 */; };
+		96AB2464240016F2001A6857 /* piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB2459240016F1001A6857 /* piano.mp3 */; };
+		96AB2465240016F2001A6857 /* tuba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB245A240016F1001A6857 /* tuba.mp3 */; };
+		96AB2466240016F2001A6857 /* violoncelle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB245B240016F1001A6857 /* violoncelle.mp3 */; };
+		96AB2467240016F2001A6857 /* violon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB245C240016F2001A6857 /* violon.mp3 */; };
+		96AB2468240016F2001A6857 /* alto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB245D240016F2001A6857 /* alto.mp3 */; };
+		96AB2469240016F2001A6857 /* trombone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB245E240016F2001A6857 /* trombone.mp3 */; };
+		96AB246A240016F2001A6857 /* trompette.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB245F240016F2001A6857 /* trompette.mp3 */; };
+		96AB246E2400183E001A6857 /* grosse_caisse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB246B2400183E001A6857 /* grosse_caisse.mp3 */; };
+		96AB246F2400183E001A6857 /* xylophone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB246C2400183E001A6857 /* xylophone.mp3 */; };
+		96AB24702400183E001A6857 /* timbale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96AB246D2400183E001A6857 /* timbale.mp3 */; };
+		96C4C56723E35CFD00AEFCA8 /* LaSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4C56623E35CFD00AEFCA8 /* LaSceneViewController.swift */; };
+		96C4C56923E35D2500AEFCA8 /* LesCoulissesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4C56823E35D2500AEFCA8 /* LesCoulissesViewController.swift */; };
+		96C4C56D23E35D5800AEFCA8 /* LaTechniqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4C56C23E35D5800AEFCA8 /* LaTechniqueViewController.swift */; };
+		96C4C56F23E35D7200AEFCA8 /* LesProductionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4C56E23E35D7200AEFCA8 /* LesProductionsViewController.swift */; };
+		96C4C57123E365FC00AEFCA8 /* QuizClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4C57023E365FC00AEFCA8 /* QuizClassViewController.swift */; };
+		96C8D70323FADDDD00A8A5DC /* ToventboisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C8D70223FADDDD00A8A5DC /* ToventboisViewController.swift */; };
+		96C8D70523FB25A700A8A5DC /* flute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D70423FB25A700A8A5DC /* flute.mp3 */; };
+		96C8D70923FB3AE500A8A5DC /* hautbois.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D70623FB3AE500A8A5DC /* hautbois.mp3 */; };
+		96C8D70A23FB3AE500A8A5DC /* basson.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D70723FB3AE500A8A5DC /* basson.mp3 */; };
+		96C8D70B23FB3AE500A8A5DC /* clarinette.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96C8D70823FB3AE500A8A5DC /* clarinette.mp3 */; };
+		96D1540823D5B43B00739510 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D1540723D5B43B00739510 /* square.png */; };
+		96D162F123DEF32F0058BC97 /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D162F023DEF32F0058BC97 /* homePageViewController.swift */; };
+		96E7251623DF752300DFE525 /* ActualiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7251523DF752300DFE525 /* ActualiteViewController.swift */; };
+		96FBB3DA23D1A6AE0047E6C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBB3D923D1A6AE0047E6C1 /* AppDelegate.swift */; };
+		96FBB3DC23D1A6AE0047E6C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBB3DB23D1A6AE0047E6C1 /* SceneDelegate.swift */; };
+		96FBB3DE23D1A6AE0047E6C1 /* qrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBB3DD23D1A6AE0047E6C1 /* qrViewController.swift */; };
+		96FBB3E123D1A6AE0047E6C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FBB3DF23D1A6AE0047E6C1 /* Main.storyboard */; };
+		96FBB3E323D1A6B00047E6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FBB3E223D1A6B00047E6C1 /* Assets.xcassets */; };
+		96FBB3E623D1A6B00047E6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FBB3E423D1A6B00047E6C1 /* LaunchScreen.storyboard */; };
+		ED70CCA237309CF867DADDFA /* Pods_opera_version_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1648346F822F6729CF17F0 /* Pods_opera_version_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16E3ED80F13FB1430CBF67B6 /* Pods-opera_version_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opera_version_iOS.debug.xcconfig"; path = "Target Support Files/Pods-opera_version_iOS/Pods-opera_version_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4C1648346F822F6729CF17F0 /* Pods_opera_version_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_opera_version_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D65B5460D5401E8D0C4A846 /* Pods-opera_version_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-opera_version_iOS.release.xcconfig"; path = "Target Support Files/Pods-opera_version_iOS/Pods-opera_version_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9619A2DE23D9F815004076EA /* lorchestreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lorchestreViewController.swift; sourceTree = "<group>"; };
+		963B3785240D13A700E888E3 /* BilletterieWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BilletterieWebViewController.swift; sourceTree = "<group>"; };
+		96597F6D23D8949A007162A4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		9682DDE123E0427900B8C031 /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		9682DDE323E0902B00B8C031 /* opera_version_iOS.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = opera_version_iOS.entitlements; sourceTree = "<group>"; };
+		96A20E1023EC539C00E09EF9 /* Questions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Questions.xml; sourceTree = "<group>"; };
+		96AB244D23FD9AE8001A6857 /* claviersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claviersViewController.swift; sourceTree = "<group>"; };
+		96AB244F23FD9B10001A6857 /* cordesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cordesViewController.swift; sourceTree = "<group>"; };
+		96AB245123FD9B29001A6857 /* ventcuivresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ventcuivresViewController.swift; sourceTree = "<group>"; };
+		96AB245323FD9B52001A6857 /* percuissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = percuissionsViewController.swift; sourceTree = "<group>"; };
+		96AB2455240016F0001A6857 /* harpe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harpe.mp3; sourceTree = "<group>"; };
+		96AB2456240016F1001A6857 /* cors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cors.mp3; sourceTree = "<group>"; };
+		96AB2457240016F1001A6857 /* celesta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = celesta.mp3; sourceTree = "<group>"; };
+		96AB2458240016F1001A6857 /* contrebasse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = contrebasse.mp3; sourceTree = "<group>"; };
+		96AB2459240016F1001A6857 /* piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano.mp3; sourceTree = "<group>"; };
+		96AB245A240016F1001A6857 /* tuba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tuba.mp3; sourceTree = "<group>"; };
+		96AB245B240016F1001A6857 /* violoncelle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violoncelle.mp3; sourceTree = "<group>"; };
+		96AB245C240016F2001A6857 /* violon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violon.mp3; sourceTree = "<group>"; };
+		96AB245D240016F2001A6857 /* alto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alto.mp3; sourceTree = "<group>"; };
+		96AB245E240016F2001A6857 /* trombone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trombone.mp3; sourceTree = "<group>"; };
+		96AB245F240016F2001A6857 /* trompette.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trompette.mp3; sourceTree = "<group>"; };
+		96AB246B2400183E001A6857 /* grosse_caisse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grosse_caisse.mp3; sourceTree = "<group>"; };
+		96AB246C2400183E001A6857 /* xylophone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xylophone.mp3; sourceTree = "<group>"; };
+		96AB246D2400183E001A6857 /* timbale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timbale.mp3; sourceTree = "<group>"; };
+		96C4C56623E35CFD00AEFCA8 /* LaSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaSceneViewController.swift; sourceTree = "<group>"; };
+		96C4C56823E35D2500AEFCA8 /* LesCoulissesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesCoulissesViewController.swift; sourceTree = "<group>"; };
+		96C4C56C23E35D5800AEFCA8 /* LaTechniqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTechniqueViewController.swift; sourceTree = "<group>"; };
+		96C4C56E23E35D7200AEFCA8 /* LesProductionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesProductionsViewController.swift; sourceTree = "<group>"; };
+		96C4C57023E365FC00AEFCA8 /* QuizClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizClassViewController.swift; sourceTree = "<group>"; };
+		96C8D70223FADDDD00A8A5DC /* ToventboisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToventboisViewController.swift; sourceTree = "<group>"; };
+		96C8D70423FB25A700A8A5DC /* flute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flute.mp3; sourceTree = "<group>"; };
+		96C8D70623FB3AE500A8A5DC /* hautbois.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hautbois.mp3; sourceTree = "<group>"; };
+		96C8D70723FB3AE500A8A5DC /* basson.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = basson.mp3; sourceTree = "<group>"; };
+		96C8D70823FB3AE500A8A5DC /* clarinette.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clarinette.mp3; sourceTree = "<group>"; };
+		96D1540723D5B43B00739510 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		96D162F023DEF32F0058BC97 /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
+		96E7251523DF752300DFE525 /* ActualiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualiteViewController.swift; sourceTree = "<group>"; };
+		96FBB3D623D1A6AE0047E6C1 /* opera_version_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opera_version_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FBB3D923D1A6AE0047E6C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96FBB3DB23D1A6AE0047E6C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96FBB3DD23D1A6AE0047E6C1 /* qrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrViewController.swift; sourceTree = "<group>"; };
+		96FBB3E023D1A6AE0047E6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96FBB3E223D1A6B00047E6C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96FBB3E523D1A6B00047E6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96FBB3E723D1A6B00047E6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96FBB3D323D1A6AE0047E6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96597F6E23D8949A007162A4 /* WebKit.framework in Frameworks */,
+				ED70CCA237309CF867DADDFA /* Pods_opera_version_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7399C8243827071323396C88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16E3ED80F13FB1430CBF67B6 /* Pods-opera_version_iOS.debug.xcconfig */,
+				8D65B5460D5401E8D0C4A846 /* Pods-opera_version_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96597F6C23D8949A007162A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96597F6D23D8949A007162A4 /* WebKit.framework */,
+				4C1648346F822F6729CF17F0 /* Pods_opera_version_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96FBB3CD23D1A6AE0047E6C1 = {
+			isa = PBXGroup;
+			children = (
+				96A20E1023EC539C00E09EF9 /* Questions.xml */,
+				96FBB3D823D1A6AE0047E6C1 /* opera_version_iOS */,
+				96FBB3D723D1A6AE0047E6C1 /* Products */,
+				96597F6C23D8949A007162A4 /* Frameworks */,
+				7399C8243827071323396C88 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		96FBB3D723D1A6AE0047E6C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FBB3D623D1A6AE0047E6C1 /* opera_version_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96FBB3D823D1A6AE0047E6C1 /* opera_version_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				963B3785240D13A700E888E3 /* BilletterieWebViewController.swift */,
+				96C8D70423FB25A700A8A5DC /* flute.mp3 */,
+				9682DDE323E0902B00B8C031 /* opera_version_iOS.entitlements */,
+				96D1540723D5B43B00739510 /* square.png */,
+				96FBB3D923D1A6AE0047E6C1 /* AppDelegate.swift */,
+				96FBB3DB23D1A6AE0047E6C1 /* SceneDelegate.swift */,
+				96FBB3DD23D1A6AE0047E6C1 /* qrViewController.swift */,
+				96E7251523DF752300DFE525 /* ActualiteViewController.swift */,
+				96FBB3DF23D1A6AE0047E6C1 /* Main.storyboard */,
+				96AB246B2400183E001A6857 /* grosse_caisse.mp3 */,
+				96AB246D2400183E001A6857 /* timbale.mp3 */,
+				96AB246C2400183E001A6857 /* xylophone.mp3 */,
+				96AB245D240016F2001A6857 /* alto.mp3 */,
+				96AB2457240016F1001A6857 /* celesta.mp3 */,
+				96AB2458240016F1001A6857 /* contrebasse.mp3 */,
+				96AB2456240016F1001A6857 /* cors.mp3 */,
+				96AB2455240016F0001A6857 /* harpe.mp3 */,
+				96AB2459240016F1001A6857 /* piano.mp3 */,
+				96AB245E240016F2001A6857 /* trombone.mp3 */,
+				96AB245F240016F2001A6857 /* trompette.mp3 */,
+				96AB245A240016F1001A6857 /* tuba.mp3 */,
+				96AB245C240016F2001A6857 /* violon.mp3 */,
+				96AB245B240016F1001A6857 /* violoncelle.mp3 */,
+				96C8D70723FB3AE500A8A5DC /* basson.mp3 */,
+				96C8D70823FB3AE500A8A5DC /* clarinette.mp3 */,
+				96C8D70623FB3AE500A8A5DC /* hautbois.mp3 */,
+				96FBB3E223D1A6B00047E6C1 /* Assets.xcassets */,
+				96FBB3E423D1A6B00047E6C1 /* LaunchScreen.storyboard */,
+				96FBB3E723D1A6B00047E6C1 /* Info.plist */,
+				9619A2DE23D9F815004076EA /* lorchestreViewController.swift */,
+				96D162F023DEF32F0058BC97 /* homePageViewController.swift */,
+				9682DDE123E0427900B8C031 /* WelcomePageViewController.swift */,
+				96C4C56623E35CFD00AEFCA8 /* LaSceneViewController.swift */,
+				96C4C56823E35D2500AEFCA8 /* LesCoulissesViewController.swift */,
+				96C4C56C23E35D5800AEFCA8 /* LaTechniqueViewController.swift */,
+				96C4C56E23E35D7200AEFCA8 /* LesProductionsViewController.swift */,
+				96C4C57023E365FC00AEFCA8 /* QuizClassViewController.swift */,
+				96C8D70223FADDDD00A8A5DC /* ToventboisViewController.swift */,
+				96AB244D23FD9AE8001A6857 /* claviersViewController.swift */,
+				96AB244F23FD9B10001A6857 /* cordesViewController.swift */,
+				96AB245123FD9B29001A6857 /* ventcuivresViewController.swift */,
+				96AB245323FD9B52001A6857 /* percuissionsViewController.swift */,
+			);
+			path = opera_version_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96FBB3D523D1A6AE0047E6C1 /* opera_version_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FBB3EA23D1A6B00047E6C1 /* Build configuration list for PBXNativeTarget "opera_version_iOS" */;
+			buildPhases = (
+				36B7AC23E7303A8A1F991501 /* [CP] Check Pods Manifest.lock */,
+				96FBB3D223D1A6AE0047E6C1 /* Sources */,
+				96FBB3D323D1A6AE0047E6C1 /* Frameworks */,
+				96FBB3D423D1A6AE0047E6C1 /* Resources */,
+				58C267311EE5595206D153D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opera_version_iOS;
+			productName = opera_version_iOS;
+			productReference = 96FBB3D623D1A6AE0047E6C1 /* opera_version_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96FBB3CE23D1A6AE0047E6C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "yiliang fu";
+				TargetAttributes = {
+					96FBB3D523D1A6AE0047E6C1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 96FBB3D123D1A6AE0047E6C1 /* Build configuration list for PBXProject "opera_version_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96FBB3CD23D1A6AE0047E6C1;
+			productRefGroup = 96FBB3D723D1A6AE0047E6C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FBB3D523D1A6AE0047E6C1 /* opera_version_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FBB3D423D1A6AE0047E6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C8D70B23FB3AE500A8A5DC /* clarinette.mp3 in Resources */,
+				96A20E1123EC539C00E09EF9 /* Questions.xml in Resources */,
+				96AB2468240016F2001A6857 /* alto.mp3 in Resources */,
+				96AB2464240016F2001A6857 /* piano.mp3 in Resources */,
+				96AB2462240016F2001A6857 /* celesta.mp3 in Resources */,
+				96FBB3E623D1A6B00047E6C1 /* LaunchScreen.storyboard in Resources */,
+				96AB2460240016F2001A6857 /* harpe.mp3 in Resources */,
+				96FBB3E323D1A6B00047E6C1 /* Assets.xcassets in Resources */,
+				96C8D70523FB25A700A8A5DC /* flute.mp3 in Resources */,
+				96AB2463240016F2001A6857 /* contrebasse.mp3 in Resources */,
+				96AB2466240016F2001A6857 /* violoncelle.mp3 in Resources */,
+				96C8D70923FB3AE500A8A5DC /* hautbois.mp3 in Resources */,
+				96AB246E2400183E001A6857 /* grosse_caisse.mp3 in Resources */,
+				96AB246F2400183E001A6857 /* xylophone.mp3 in Resources */,
+				96AB24702400183E001A6857 /* timbale.mp3 in Resources */,
+				96D1540823D5B43B00739510 /* square.png in Resources */,
+				96AB2465240016F2001A6857 /* tuba.mp3 in Resources */,
+				96AB2467240016F2001A6857 /* violon.mp3 in Resources */,
+				96AB246A240016F2001A6857 /* trompette.mp3 in Resources */,
+				96AB2461240016F2001A6857 /* cors.mp3 in Resources */,
+				96C8D70A23FB3AE500A8A5DC /* basson.mp3 in Resources */,
+				96FBB3E123D1A6AE0047E6C1 /* Main.storyboard in Resources */,
+				96AB2469240016F2001A6857 /* trombone.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36B7AC23E7303A8A1F991501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-opera_version_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C267311EE5595206D153D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-opera_version_iOS/Pods-opera_version_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-opera_version_iOS/Pods-opera_version_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-opera_version_iOS/Pods-opera_version_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96FBB3D223D1A6AE0047E6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4C56D23E35D5800AEFCA8 /* LaTechniqueViewController.swift in Sources */,
+				96C4C56923E35D2500AEFCA8 /* LesCoulissesViewController.swift in Sources */,
+				96FBB3DE23D1A6AE0047E6C1 /* qrViewController.swift in Sources */,
+				9619A2DF23D9F815004076EA /* lorchestreViewController.swift in Sources */,
+				96AB245023FD9B10001A6857 /* cordesViewController.swift in Sources */,
+				96AB245223FD9B29001A6857 /* ventcuivresViewController.swift in Sources */,
+				9682DDE223E0427900B8C031 /* WelcomePageViewController.swift in Sources */,
+				96D162F123DEF32F0058BC97 /* homePageViewController.swift in Sources */,
+				96C4C56723E35CFD00AEFCA8 /* LaSceneViewController.swift in Sources */,
+				963B3786240D13A700E888E3 /* BilletterieWebViewController.swift in Sources */,
+				96C4C56F23E35D7200AEFCA8 /* LesProductionsViewController.swift in Sources */,
+				96AB244E23FD9AE8001A6857 /* claviersViewController.swift in Sources */,
+				96C4C57123E365FC00AEFCA8 /* QuizClassViewController.swift in Sources */,
+				96C8D70323FADDDD00A8A5DC /* ToventboisViewController.swift in Sources */,
+				96FBB3DA23D1A6AE0047E6C1 /* AppDelegate.swift in Sources */,
+				96FBB3DC23D1A6AE0047E6C1 /* SceneDelegate.swift in Sources */,
+				96AB245423FD9B52001A6857 /* percuissionsViewController.swift in Sources */,
+				96E7251623DF752300DFE525 /* ActualiteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96FBB3DF23D1A6AE0047E6C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FBB3E023D1A6AE0047E6C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96FBB3E423D1A6B00047E6C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FBB3E523D1A6B00047E6C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96FBB3E823D1A6B00047E6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96FBB3E923D1A6B00047E6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96FBB3EB23D1A6B00047E6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E3ED80F13FB1430CBF67B6 /* Pods-opera_version_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = HRT3ASXQTJ;
+				INFOPLIST_FILE = opera_version_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iosversion.opera-version-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96FBB3EC23D1A6B00047E6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D65B5460D5401E8D0C4A846 /* Pods-opera_version_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = HRT3ASXQTJ;
+				INFOPLIST_FILE = opera_version_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iosversion.opera-version-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96FBB3D123D1A6AE0047E6C1 /* Build configuration list for PBXProject "opera_version_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FBB3E823D1A6B00047E6C1 /* Debug */,
+				96FBB3E923D1A6B00047E6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FBB3EA23D1A6B00047E6C1 /* Build configuration list for PBXNativeTarget "opera_version_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FBB3EB23D1A6B00047E6C1 /* Debug */,
+				96FBB3EC23D1A6B00047E6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96FBB3CE23D1A6AE0047E6C1 /* Project object */;
+}
