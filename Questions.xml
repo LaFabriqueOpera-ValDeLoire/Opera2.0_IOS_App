@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<catalog>
+    <question>
+        <nom>Quels instruments débutent l’ouverture de La Traviata ?</nom>
+        <cas1>Les violons</cas1>
+        <cas2>Les hautbois</cas2>
+        <cas3>Les timbales</cas3>
+        <cas4>Les flûtes</cas4>
+        <solution>1</solution>
+    </question>
+
+    <question>
+        <nom>Combien de pages contient la partition d’Alto ?</nom>
+        <cas1>12</cas1>
+        <cas2>25</cas2>
+        <cas3>121</cas3>
+        <cas4>58</cas4>
+        <solution>4</solution>
+    </question>
+
+    <question>
+        <nom>Quel genre musical accompagne la demande en mariage de Violetta? </nom>
+        <cas1>Fox-trot</cas1>
+        <cas2>Marche funèbre</cas2>
+        <cas3>Valse</cas3>
+        <cas4>Reggae</cas4>
+        <solution>2</solution>
+    </question>
+
+    <question>
+        <nom>Quel thème célèbre chanté par le chœur la flûte double-t-elle ?</nom>
+        <cas1>Addio</cas1>
+        <cas2>Ouverture</cas2>
+        <cas3>Zingarelle</cas3>
+        <cas4>Libiamo</cas4>
+        <solution>4</solution>
+    </question>
+
+    <question>
+        <nom>Quel est le prochain opéra au Zénith ?</nom>
+        <cas1>Carmen</cas1>
+        <cas2>La Traviata</cas2>
+        <cas3>Boule et bill</cas3>
+        <cas4>Avatar</cas4>
+        <solution>2</solution>
+    </question>
+
+    <question>
+        <nom>Dans quel air le hautbois dialogue-t-il avec Violetta ?</nom>
+        <cas1>Addio</cas1>
+        <cas2>Libiamo</cas2>
+        <cas3>Zingarelle</cas3>
+        <cas4>Chœur des matadors</cas4>
+        <solution>1</solution>
+    </question>
+
+    <question>
+        <nom>Quel moment important les timbales accompagnent-elles ?</nom>
+        <cas1>La rencontre avec Alfredo</cas1>
+        <cas2>La fête chez Flora</cas2>
+        <cas3>Le sermon de Germont</cas3>
+        <cas4>La mort de Violetta</cas4>
+        <solution>4</solution>
+    </question>
+
+    <question>
+        <nom>À quel ensemble de personnages les castagnettes sont-elles associées dans l’opéra ?</nom>
+        <cas1>Les bohémiennes</cas1>
+        <cas2>Les matadors</cas2>
+        <cas3>Les invités de la fête</cas3>
+        <cas4>Les domestiques</cas4>
+        <solution>1</solution>
+    </question>
+
+    <question>
+        <nom>Dans combien de mesures la harpe se joue-t-elle dans la Traviata ?</nom>
+        <cas1>15</cas1>
+        <cas2>24</cas2>
+        <cas3>2</cas3>
+        <cas4>65</cas4>
+        <solution>2</solution>
+    </question>
+
+    <question>
+        <nom>Quel thème le violoncelle expose-t-il dans l’ouverture ?</nom>
+        <cas1>L’amour</cas1>
+        <cas2>La haine</cas2>
+        <cas3>Le désespoir</cas3>
+        <cas4>La joie</cas4>
+        <solution>3</solution>
+    </question>
+
+    <question>
+        <nom>De quel roman célèbre s’est inspiré Verdi pour composer La Traviata ?</nom>
+        <cas1>Les 3 mousquetaires</cas1>
+        <cas2>Germinal</cas2>
+        <cas3>Harry Potter</cas3>
+        <cas4>La Dame aux Camélias</cas4>
+        <solution>4</solution>
+    </question>
+
+    <question>
+        <nom>Violetta exerçait la profession de :</nom>
+        <cas1>Demi-mondaine</cas1>
+        <cas2>Fleuriste</cas2>
+        <cas3>Sans profession</cas3>
+        <cas4>Actrice</cas4>
+        <solution>1</solution>
+    </question>
+
+    <question>
+        <nom>Alfredo fait la connaissance de Violetta à :</nom>
+        <cas1>Venise</cas1>
+        <cas2>Paris</cas2>
+        <cas3>Berlin</cas3>
+        <cas4>Londres</cas4>
+        <solution>2</solution>
+    </question>
+
+    <question>
+        <nom>La meilleure amie de Violetta se nomme :</nom>
+        <cas1>Maria</cas1>
+        <cas2>Christina</cas2>
+        <cas3>Flora</cas3>
+        <cas4>Giselda</cas4>
+        <solution>3</solution>
+    </question>
+
+    <question>
+        <nom>Au début de l’opéra, Violetta est fiancée à :</nom>
+        <cas1>Baron Douphol</cas1>
+        <cas2>Alfredo</cas2>
+        <cas3>Germont</cas3>
+        <cas4>Le docteur</cas4>
+        <solution>1</solution>
+    </question>
+    
+</catalog>
